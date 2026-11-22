@@ -41,3 +41,10 @@ cctv-trace/models/*
 cctv-trace/app/report/output/
 *.log
 
+# Extra safety (weights, videos, smoke-test output)
+*.pt
+*.onnx
+*.mp4
+*.avi
+*.mov
+smoke_plate_*.jpg
